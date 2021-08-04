@@ -2,10 +2,9 @@
 // Create an array with at least 100 elements in it where the ??? is.
 // Execute `rustlings hint primitive_types3` for hints!
 
-// I AM NOT DONE
 
 fn main() {
-    let a = ???
+    let a = std::iter::repeat(0).take(200).collect::<Vec<i32>>();
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
